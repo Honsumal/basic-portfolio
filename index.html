@@ -1,57 +1,116 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<head>
+<html>
+  <head>
+    <title>Alastair Lee's Portfolio</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Alastair Lee's Webpage</title>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1></h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <figure role="img" aria-label = "background image of height 800px, width 100%" class = "hero"></figure>
-    
-
+      <h1></h1>
+      <nav>
+          <ul>
+              <li>
+                  <a href="https://github.com/Honsumal">Github</a>
+                  <a href="https://www.linkedin.com/in/hon-sum-alastair-lee/">Linkedin</a>
+                  <a href="assets/files/Alastair Lee's Resume.pdf">Resume</a>
+              </li>
+          </ul>
+      </nav>
+  </header>
     <main>
+      <article id="about-me">
+          <img src="assets/images/Self.jpg" alt = "Picture of self" class = "self">
+          <h2>About Me</h2>
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+            tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+            quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+            sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+            recusandae alias error harum maxime adipisci amet laborum.
+          </p>
+          
+      </article>
 
-        <article id="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" alt = "search engine optimization image of height 200px" style = "float: left; margin-right: 25px" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-            </p>
-        </article>
-        <article id="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" alt = "online reputation management image of height 200px" style = "float: right; margin-left: 25px"/>
-            <h2>Online Reputation Management</h2>
-            <p>
-            </p>
-        </article>
-        <article id="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" alt = "social media marketing image of height 200px" style = "float: left; margin-right: 25px" />
-            <h2>Social Media Marketing</h2>
-            <p>
-            </p>
-        </article>
-    </main>
-    
-    <section>
-    </section>
-</body>
+      <article id="work" >
+          <h2>Work</h2>
+          <figure>
+              <a href = "https://honsumal.github.io/module-1-challenge/"><img src="assets/images/proj-1.png" alt="Image of first project, width 350px" class = "big"></a>
+              <h3>First Project</h3>
+          </figure>
 
+          <div class = "row">
+            <figure class = "card">
+                <a href = "#"><img src="assets/images/proj-2.png" alt="Stand-in image for second project" class = "norm"></a>
+                <h3>Second Project</h3>
+            </figure>
+
+            <figure class = "card">
+                <a href = "#"><img src="assets/images/proj-3.png" alt="Stand-in image for third project" class = "norm"></a>
+                <h3>Third Project</h3>
+            </figure>
+
+            <figure class = "card">
+                <a href = "#"><img src="assets/images/proj-4.png" alt="Stand-in image for fourth project" class = "norm"></a>
+                <h3>Fourth Project</h3>
+            </figure>
+
+            <figure class = "card">
+                <a href = "#"><img src="assets/images/proj-5.png" alt="Stand-in image for fifth project" class = "norm"></a>
+                <h3>Fifth Project</h3>
+            </figure>
+
+            <figure class = "card">
+                <a href = "#"><img src="assets/images/proj-6.png" alt="Stand-in image for fifth project" class = "norm"></a>
+                <h3>Sixth Project</h3>
+            </figure>
+
+            <figure class = "card">
+                <a href = "#"><img src="assets/images/proj-7.png" alt="Stand-in image for fifth project" class = "norm"></a>
+                <h3>Seventh Project</h3>
+            </figure>
+          </div>
+
+      </article>
+
+      <article id="contact-me">
+          <h2>Contact Me</h2>
+          <section class = "row">
+              <div class = "card">
+                  <figure class = "app-box">
+                      <a href="https://github.com/Honsumal">Github</a>
+                  </figure>
+              </div>
+
+              <div class = "card">
+                  <figure class = "app-box">
+                      <a href="https://www.linkedin.com/in/hon-sum-alastair-lee/">Linkedin</a>
+                  </figure>
+              </div>
+
+              <div class = "card">
+                  <figure class = "app-box">
+                      <a href="assets/files/Alastair Lee's Resume.pdf">Resume</a>
+                  </figure>
+              </div>
+          </section>          
+      </article>
+  </main>
+
+  <aside class = "sidenav">
+    <h4>Navigation:</h4>
+    <a href="#about-me">About Me</a>
+    <a href="#work">Work</a>
+    <a href="#contact-me">Contact Me</a>
+</aside>
+  </body>
 </html>
