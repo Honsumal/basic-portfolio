@@ -12,7 +12,7 @@ N/A
 
 ## Usage
 
-The site is fully operational, with all links tested and images backed up with alternate text in the case of potential problems. Link to deployed webpage: https://honsumal.github.io/module-2-challenge/
+The site is fully operational, with all links tested and images backed up with alternate text in the case of potential problems. Link to deployed webpage: https://honsumal.github.io/basic-portfolio/
 
 A screenshot of the completed application is provided below:
 
